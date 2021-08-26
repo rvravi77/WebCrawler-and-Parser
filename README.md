@@ -48,7 +48,7 @@ Keep task1.py and task2.py files in the same folder and also keep "rottentomatoe
 ## Outputs
 ### Task 1 :Selecting genre
 
-![task1](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/1.png)
+<img src="ttps://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/1.png" alt="drawing" width="200"/>
 
 ### Task 1 :Selecting movie from top 100 list and consequtive option to ramain in same genre or change
 
