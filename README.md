@@ -45,14 +45,32 @@ Keep task1.py and task2.py files in the same folder and also keep "rottentomatoe
    (Note : Enter genre and movie name as shown(case sentitive))
 2. To get information from the pages(Interactive format) :  ~% task2.py
 
-### Outputs
+## Outputs
+* Task 1 :Selecting genre
 
 ![task1](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/1.png)
-![task1](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/2.png)
-![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/3.png)
-![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/4.png)
-![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/5.png)
-![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/6.png)
-![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/7.png)
 
+* Task 1 :Selecting movie from top 100 list and consequtive option to ramain in same genre or change
+
+![task1](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/2.png)
+
+* Task 2:Selecting movie no. from downloaded movie list.
+
+![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/3.png)
+
+* Task 2: How to Select a field
+
+![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/4.png)
+
+* Task 2: Output on **"director"** field
+
+![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/5.png)
+
+* Task 2: Output on **"cast & character -> birthday"** field
+
+![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/6.png)
+
+* Task 2: Output on **"producer"** field
+
+![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/7.png)
 
