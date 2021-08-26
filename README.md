@@ -41,9 +41,9 @@ Then wait for the user to select from any of the above options and show the resu
 ### Instructions to run the code
 
 Keep task1.py and task2.py files in the same folder and also keep "rottentomatoes movie genre link.txt" with them.
-1. To save the any of top 100 movie pages of a genre : ~% task1.py
+1. To save the any of top 100 movie pages of a genre : ``` ~% python3 task1.py ```
    (Note : Enter genre and movie name as shown(case sentitive))
-2. To get information from the pages(Interactive format) :  ~% task2.py
+2. To get information from the pages(Interactive format) : ```  ~% python3 task2.py```
 
 ## Outputs
 ### Task 1 :Selecting genre
