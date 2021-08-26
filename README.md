@@ -58,19 +58,19 @@ Keep task1.py and task2.py files in the same folder and also keep "rottentomatoe
 
 ![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/3.png)
 
-* Task 2: How to Select a field
+* Task 2: Output on **"director"** field
 
 ![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/4.png)
 
-* Task 2: Output on **"director"** field
+* Task 2: Output on **"cast & character -> birthday"** field
 
 ![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/5.png)
 
-* Task 2: Output on **"cast & character -> birthday"** field
+* Task 2: Output on **"producer"** field
 
 ![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/6.png)
 
-* Task 2: Output on **"producer"** field
+* Task 2: Output of invalid entry
 
 ![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/7.png)
 
