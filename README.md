@@ -45,3 +45,14 @@ Keep task1.py and task2.py files in the same folder and also keep "rottentomatoe
    (Note : Enter genre and movie name as shown(case sentitive))
 2. To get information from the pages(Interactive format) :  ~% task2.py
 
+### Outputs
+
+![task1](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/1.png)
+![task1](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/2.png)
+![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/3.png)
+![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/4.png)
+![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/5.png)
+![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/6.png)
+![task2](https://github.com/rvravi77/WebCrawler-and-Parser/blob/main/img/7.png)
+
+
