@@ -38,3 +38,10 @@ Birthday
 His/Her other movies
 Then wait for the user to select from any of the above options and show the result as per selection and for the ‘His/Her other movies’ further ask for a year and use it as a filter to show all the movies on or after that year.
 
+### Instructions to run the code
+
+Keep task1.py and task2.py files in the same folder and also keep "rottentomatoes movie genre link.txt" with them.
+1. To save the any of top 100 movie pages of a genre : ~% task1.py
+   (Note : Enter genre and movie name as shown(case sentitive))
+2. To get information from the pages(Interactive format) :  ~% task2.py
+

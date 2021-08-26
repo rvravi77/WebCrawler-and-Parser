@@ -1,0 +1,645 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> start
+Rule 1     start -> TROW S_OMT E_OMT
+Rule 2     start -> S_BIDAY ALL E_BIDAY
+Rule 3     start -> H_RATE ALL E_ANKOR
+Rule 4     start -> L_RATE ALL E_ANKOR
+Rule 5     start -> S_WTW ALL
+Rule 6     start -> S_LNAME ALL E_LNAME
+Rule 7     start -> LLINK ALL
+Rule 8     start -> S_GENRE ALL E_DIV
+Rule 9     start -> S_STAR ALL E_SPAN S_CHAR ALL E_BR
+Rule 10    start -> S_STAR ALL E_SPAN S_CHAR ALL E_SPAN
+Rule 11    start -> S_WRITE termw E_DIV
+Rule 12    termw -> termw endw
+Rule 13    termw -> S_NAME ALL E_ANKOR ALL
+Rule 14    endw -> S_NAME ALL E_ANKOR ALL
+Rule 15    start -> S_PRODU termp E_DIV
+Rule 16    termp -> termp endp
+Rule 17    termp -> S_NAME ALL E_ANKOR ALL
+Rule 18    endp -> S_NAME ALL E_ANKOR ALL
+Rule 19    start -> S_MOVIE ALL E_MOVIE
+Rule 20    start -> S_DIREC ALL E_ANKOR
+Rule 21    start -> S_LANGU ALL E_DIV
+Rule 22    start -> S_SYNOP ALL E_DIV
+Rule 23    start -> S_BOXOF COLLECTION E_DIV
+Rule 24    start -> S_RUNTI ALL E_RUNTI
+
+Terminals, with rules where they appear
+
+ALL                  : 2 3 4 5 6 7 8 9 9 10 10 13 13 14 14 17 17 18 18 19 20 21 22 24
+COLLECTION           : 23
+E_ANKOR              : 3 4 13 14 17 18 20
+E_BIDAY              : 2
+E_BR                 : 9
+E_DIV                : 8 11 15 21 22 23
+E_LNAME              : 6
+E_MOVIE              : 19
+E_OMT                : 1
+E_RUNTI              : 24
+E_SPAN               : 9 10 10
+H_RATE               : 3
+LLINK                : 7
+L_RATE               : 4
+S_BIDAY              : 2
+S_BOXOF              : 23
+S_CHAR               : 9 10
+S_DIREC              : 20
+S_GENRE              : 8
+S_LANGU              : 21
+S_LNAME              : 6
+S_MOVIE              : 19
+S_NAME               : 13 14 17 18
+S_OMT                : 1
+S_PRODU              : 15
+S_RUNTI              : 24
+S_STAR               : 9 10
+S_SYNOP              : 22
+S_WRITE              : 11
+S_WTW                : 5
+TROW                 : 1
+error                : 
+
+Nonterminals, with rules where they appear
+
+endp                 : 16
+endw                 : 12
+start                : 0
+termp                : 15 16
+termw                : 11 12
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . start
+    (1) start -> . TROW S_OMT E_OMT
+    (2) start -> . S_BIDAY ALL E_BIDAY
+    (3) start -> . H_RATE ALL E_ANKOR
+    (4) start -> . L_RATE ALL E_ANKOR
+    (5) start -> . S_WTW ALL
+    (6) start -> . S_LNAME ALL E_LNAME
+    (7) start -> . LLINK ALL
+    (8) start -> . S_GENRE ALL E_DIV
+    (9) start -> . S_STAR ALL E_SPAN S_CHAR ALL E_BR
+    (10) start -> . S_STAR ALL E_SPAN S_CHAR ALL E_SPAN
+    (11) start -> . S_WRITE termw E_DIV
+    (15) start -> . S_PRODU termp E_DIV
+    (19) start -> . S_MOVIE ALL E_MOVIE
+    (20) start -> . S_DIREC ALL E_ANKOR
+    (21) start -> . S_LANGU ALL E_DIV
+    (22) start -> . S_SYNOP ALL E_DIV
+    (23) start -> . S_BOXOF COLLECTION E_DIV
+    (24) start -> . S_RUNTI ALL E_RUNTI
+
+    TROW            shift and go to state 2
+    S_BIDAY         shift and go to state 3
+    H_RATE          shift and go to state 4
+    L_RATE          shift and go to state 5
+    S_WTW           shift and go to state 6
+    S_LNAME         shift and go to state 7
+    LLINK           shift and go to state 8
+    S_GENRE         shift and go to state 9
+    S_STAR          shift and go to state 10
+    S_WRITE         shift and go to state 11
+    S_PRODU         shift and go to state 12
+    S_MOVIE         shift and go to state 13
+    S_DIREC         shift and go to state 14
+    S_LANGU         shift and go to state 15
+    S_SYNOP         shift and go to state 16
+    S_BOXOF         shift and go to state 17
+    S_RUNTI         shift and go to state 18
+
+    start                          shift and go to state 1
+
+state 1
+
+    (0) S' -> start .
+
+
+
+state 2
+
+    (1) start -> TROW . S_OMT E_OMT
+
+    S_OMT           shift and go to state 19
+
+
+state 3
+
+    (2) start -> S_BIDAY . ALL E_BIDAY
+
+    ALL             shift and go to state 20
+
+
+state 4
+
+    (3) start -> H_RATE . ALL E_ANKOR
+
+    ALL             shift and go to state 21
+
+
+state 5
+
+    (4) start -> L_RATE . ALL E_ANKOR
+
+    ALL             shift and go to state 22
+
+
+state 6
+
+    (5) start -> S_WTW . ALL
+
+    ALL             shift and go to state 23
+
+
+state 7
+
+    (6) start -> S_LNAME . ALL E_LNAME
+
+    ALL             shift and go to state 24
+
+
+state 8
+
+    (7) start -> LLINK . ALL
+
+    ALL             shift and go to state 25
+
+
+state 9
+
+    (8) start -> S_GENRE . ALL E_DIV
+
+    ALL             shift and go to state 26
+
+
+state 10
+
+    (9) start -> S_STAR . ALL E_SPAN S_CHAR ALL E_BR
+    (10) start -> S_STAR . ALL E_SPAN S_CHAR ALL E_SPAN
+
+    ALL             shift and go to state 27
+
+
+state 11
+
+    (11) start -> S_WRITE . termw E_DIV
+    (12) termw -> . termw endw
+    (13) termw -> . S_NAME ALL E_ANKOR ALL
+
+    S_NAME          shift and go to state 29
+
+    termw                          shift and go to state 28
+
+state 12
+
+    (15) start -> S_PRODU . termp E_DIV
+    (16) termp -> . termp endp
+    (17) termp -> . S_NAME ALL E_ANKOR ALL
+
+    S_NAME          shift and go to state 31
+
+    termp                          shift and go to state 30
+
+state 13
+
+    (19) start -> S_MOVIE . ALL E_MOVIE
+
+    ALL             shift and go to state 32
+
+
+state 14
+
+    (20) start -> S_DIREC . ALL E_ANKOR
+
+    ALL             shift and go to state 33
+
+
+state 15
+
+    (21) start -> S_LANGU . ALL E_DIV
+
+    ALL             shift and go to state 34
+
+
+state 16
+
+    (22) start -> S_SYNOP . ALL E_DIV
+
+    ALL             shift and go to state 35
+
+
+state 17
+
+    (23) start -> S_BOXOF . COLLECTION E_DIV
+
+    COLLECTION      shift and go to state 36
+
+
+state 18
+
+    (24) start -> S_RUNTI . ALL E_RUNTI
+
+    ALL             shift and go to state 37
+
+
+state 19
+
+    (1) start -> TROW S_OMT . E_OMT
+
+    E_OMT           shift and go to state 38
+
+
+state 20
+
+    (2) start -> S_BIDAY ALL . E_BIDAY
+
+    E_BIDAY         shift and go to state 39
+
+
+state 21
+
+    (3) start -> H_RATE ALL . E_ANKOR
+
+    E_ANKOR         shift and go to state 40
+
+
+state 22
+
+    (4) start -> L_RATE ALL . E_ANKOR
+
+    E_ANKOR         shift and go to state 41
+
+
+state 23
+
+    (5) start -> S_WTW ALL .
+
+    $end            reduce using rule 5 (start -> S_WTW ALL .)
+
+
+state 24
+
+    (6) start -> S_LNAME ALL . E_LNAME
+
+    E_LNAME         shift and go to state 42
+
+
+state 25
+
+    (7) start -> LLINK ALL .
+
+    $end            reduce using rule 7 (start -> LLINK ALL .)
+
+
+state 26
+
+    (8) start -> S_GENRE ALL . E_DIV
+
+    E_DIV           shift and go to state 43
+
+
+state 27
+
+    (9) start -> S_STAR ALL . E_SPAN S_CHAR ALL E_BR
+    (10) start -> S_STAR ALL . E_SPAN S_CHAR ALL E_SPAN
+
+    E_SPAN          shift and go to state 44
+
+
+state 28
+
+    (11) start -> S_WRITE termw . E_DIV
+    (12) termw -> termw . endw
+    (14) endw -> . S_NAME ALL E_ANKOR ALL
+
+    E_DIV           shift and go to state 45
+    S_NAME          shift and go to state 47
+
+    endw                           shift and go to state 46
+
+state 29
+
+    (13) termw -> S_NAME . ALL E_ANKOR ALL
+
+    ALL             shift and go to state 48
+
+
+state 30
+
+    (15) start -> S_PRODU termp . E_DIV
+    (16) termp -> termp . endp
+    (18) endp -> . S_NAME ALL E_ANKOR ALL
+
+    E_DIV           shift and go to state 49
+    S_NAME          shift and go to state 51
+
+    endp                           shift and go to state 50
+
+state 31
+
+    (17) termp -> S_NAME . ALL E_ANKOR ALL
+
+    ALL             shift and go to state 52
+
+
+state 32
+
+    (19) start -> S_MOVIE ALL . E_MOVIE
+
+    E_MOVIE         shift and go to state 53
+
+
+state 33
+
+    (20) start -> S_DIREC ALL . E_ANKOR
+
+    E_ANKOR         shift and go to state 54
+
+
+state 34
+
+    (21) start -> S_LANGU ALL . E_DIV
+
+    E_DIV           shift and go to state 55
+
+
+state 35
+
+    (22) start -> S_SYNOP ALL . E_DIV
+
+    E_DIV           shift and go to state 56
+
+
+state 36
+
+    (23) start -> S_BOXOF COLLECTION . E_DIV
+
+    E_DIV           shift and go to state 57
+
+
+state 37
+
+    (24) start -> S_RUNTI ALL . E_RUNTI
+
+    E_RUNTI         shift and go to state 58
+
+
+state 38
+
+    (1) start -> TROW S_OMT E_OMT .
+
+    $end            reduce using rule 1 (start -> TROW S_OMT E_OMT .)
+
+
+state 39
+
+    (2) start -> S_BIDAY ALL E_BIDAY .
+
+    $end            reduce using rule 2 (start -> S_BIDAY ALL E_BIDAY .)
+
+
+state 40
+
+    (3) start -> H_RATE ALL E_ANKOR .
+
+    $end            reduce using rule 3 (start -> H_RATE ALL E_ANKOR .)
+
+
+state 41
+
+    (4) start -> L_RATE ALL E_ANKOR .
+
+    $end            reduce using rule 4 (start -> L_RATE ALL E_ANKOR .)
+
+
+state 42
+
+    (6) start -> S_LNAME ALL E_LNAME .
+
+    $end            reduce using rule 6 (start -> S_LNAME ALL E_LNAME .)
+
+
+state 43
+
+    (8) start -> S_GENRE ALL E_DIV .
+
+    $end            reduce using rule 8 (start -> S_GENRE ALL E_DIV .)
+
+
+state 44
+
+    (9) start -> S_STAR ALL E_SPAN . S_CHAR ALL E_BR
+    (10) start -> S_STAR ALL E_SPAN . S_CHAR ALL E_SPAN
+
+    S_CHAR          shift and go to state 59
+
+
+state 45
+
+    (11) start -> S_WRITE termw E_DIV .
+
+    $end            reduce using rule 11 (start -> S_WRITE termw E_DIV .)
+
+
+state 46
+
+    (12) termw -> termw endw .
+
+    E_DIV           reduce using rule 12 (termw -> termw endw .)
+    S_NAME          reduce using rule 12 (termw -> termw endw .)
+
+
+state 47
+
+    (14) endw -> S_NAME . ALL E_ANKOR ALL
+
+    ALL             shift and go to state 60
+
+
+state 48
+
+    (13) termw -> S_NAME ALL . E_ANKOR ALL
+
+    E_ANKOR         shift and go to state 61
+
+
+state 49
+
+    (15) start -> S_PRODU termp E_DIV .
+
+    $end            reduce using rule 15 (start -> S_PRODU termp E_DIV .)
+
+
+state 50
+
+    (16) termp -> termp endp .
+
+    E_DIV           reduce using rule 16 (termp -> termp endp .)
+    S_NAME          reduce using rule 16 (termp -> termp endp .)
+
+
+state 51
+
+    (18) endp -> S_NAME . ALL E_ANKOR ALL
+
+    ALL             shift and go to state 62
+
+
+state 52
+
+    (17) termp -> S_NAME ALL . E_ANKOR ALL
+
+    E_ANKOR         shift and go to state 63
+
+
+state 53
+
+    (19) start -> S_MOVIE ALL E_MOVIE .
+
+    $end            reduce using rule 19 (start -> S_MOVIE ALL E_MOVIE .)
+
+
+state 54
+
+    (20) start -> S_DIREC ALL E_ANKOR .
+
+    $end            reduce using rule 20 (start -> S_DIREC ALL E_ANKOR .)
+
+
+state 55
+
+    (21) start -> S_LANGU ALL E_DIV .
+
+    $end            reduce using rule 21 (start -> S_LANGU ALL E_DIV .)
+
+
+state 56
+
+    (22) start -> S_SYNOP ALL E_DIV .
+
+    $end            reduce using rule 22 (start -> S_SYNOP ALL E_DIV .)
+
+
+state 57
+
+    (23) start -> S_BOXOF COLLECTION E_DIV .
+
+    $end            reduce using rule 23 (start -> S_BOXOF COLLECTION E_DIV .)
+
+
+state 58
+
+    (24) start -> S_RUNTI ALL E_RUNTI .
+
+    $end            reduce using rule 24 (start -> S_RUNTI ALL E_RUNTI .)
+
+
+state 59
+
+    (9) start -> S_STAR ALL E_SPAN S_CHAR . ALL E_BR
+    (10) start -> S_STAR ALL E_SPAN S_CHAR . ALL E_SPAN
+
+    ALL             shift and go to state 64
+
+
+state 60
+
+    (14) endw -> S_NAME ALL . E_ANKOR ALL
+
+    E_ANKOR         shift and go to state 65
+
+
+state 61
+
+    (13) termw -> S_NAME ALL E_ANKOR . ALL
+
+    ALL             shift and go to state 66
+
+
+state 62
+
+    (18) endp -> S_NAME ALL . E_ANKOR ALL
+
+    E_ANKOR         shift and go to state 67
+
+
+state 63
+
+    (17) termp -> S_NAME ALL E_ANKOR . ALL
+
+    ALL             shift and go to state 68
+
+
+state 64
+
+    (9) start -> S_STAR ALL E_SPAN S_CHAR ALL . E_BR
+    (10) start -> S_STAR ALL E_SPAN S_CHAR ALL . E_SPAN
+
+    E_BR            shift and go to state 70
+    E_SPAN          shift and go to state 69
+
+
+state 65
+
+    (14) endw -> S_NAME ALL E_ANKOR . ALL
+
+    ALL             shift and go to state 71
+
+
+state 66
+
+    (13) termw -> S_NAME ALL E_ANKOR ALL .
+
+    E_DIV           reduce using rule 13 (termw -> S_NAME ALL E_ANKOR ALL .)
+    S_NAME          reduce using rule 13 (termw -> S_NAME ALL E_ANKOR ALL .)
+
+
+state 67
+
+    (18) endp -> S_NAME ALL E_ANKOR . ALL
+
+    ALL             shift and go to state 72
+
+
+state 68
+
+    (17) termp -> S_NAME ALL E_ANKOR ALL .
+
+    E_DIV           reduce using rule 17 (termp -> S_NAME ALL E_ANKOR ALL .)
+    S_NAME          reduce using rule 17 (termp -> S_NAME ALL E_ANKOR ALL .)
+
+
+state 69
+
+    (10) start -> S_STAR ALL E_SPAN S_CHAR ALL E_SPAN .
+
+    $end            reduce using rule 10 (start -> S_STAR ALL E_SPAN S_CHAR ALL E_SPAN .)
+
+
+state 70
+
+    (9) start -> S_STAR ALL E_SPAN S_CHAR ALL E_BR .
+
+    $end            reduce using rule 9 (start -> S_STAR ALL E_SPAN S_CHAR ALL E_BR .)
+
+
+state 71
+
+    (14) endw -> S_NAME ALL E_ANKOR ALL .
+
+    E_DIV           reduce using rule 14 (endw -> S_NAME ALL E_ANKOR ALL .)
+    S_NAME          reduce using rule 14 (endw -> S_NAME ALL E_ANKOR ALL .)
+
+
+state 72
+
+    (18) endp -> S_NAME ALL E_ANKOR ALL .
+
+    E_DIV           reduce using rule 18 (endp -> S_NAME ALL E_ANKOR ALL .)
+    S_NAME          reduce using rule 18 (endp -> S_NAME ALL E_ANKOR ALL .)
+
